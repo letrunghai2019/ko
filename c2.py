@@ -43,10 +43,10 @@ def menu():
                \x1b[38;2;0;212;14m╚═════════════════════════════════════════════╝
 ''')
 
-def main():
+def Layer7():
     menu()
     while(True):
-        cnc = input('''\x1b[38;2;0;255;255mInput :''')
+        cnc = input('''\x1b[38;2;0;255;255mInput :+-''')
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             layer7()
 
@@ -120,5 +120,5 @@ def main():
                 print('Example: httpflood http://example.com 15000 get 60')
 
 def login():
-    main()
+    Layer7()
 login()
